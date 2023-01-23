@@ -1,0 +1,68 @@
+.testimonials {
+  width: 100%;
+  margin-bottom: 12rem;
+  margin-top: 12rem;
+  background-color: rgb(250, 241, 230);
+}
+
+.testimonials .container {
+  width: 1240px;
+  margin: 4rem auto;
+  padding: 4rem 0rem;
+}
+
+.testimonials h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.testimonials .container .content {
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.testimonials .card {
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+
+.testimonials img {
+  margin-top: -2rem;
+  border-radius: 50px;
+  width: 6rem;
+  height: 6rem;
+}
+
+.testimonials .card p {
+  margin: 12px;
+  color: #787878;
+  font-size: 1.1rem;
+}
+
+.testimonials .card span {
+  color: var(--accent-color);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.testimonials .card__linkedin {
+  color: var(--accent-dark);
+}
+@media screen and (max-width: 940px) {
+  .testimonials .container {
+    width: 100%;
+  }
+
+  .testimonials .container .content {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials .card {
+    max-width: 100%;
+    margin: 1rem;
+  }
+}

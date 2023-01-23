@@ -1,0 +1,95 @@
+.projects {
+  width: 100%;
+  background-color: rgb(250, 241, 230);
+}
+
+.projects .container {
+  width: 1240px;
+  margin: 4rem auto;
+  padding: 4rem 0rem;
+}
+
+.projects h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.projects h1 {
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+  margin: 4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 2rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.cards {
+  margin: auto;
+  padding: 2rem 2rem 4rem 2rem;
+  /* padding-bottom: 4rem; */
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  flex-basis: 24rem;
+  justify-content: center;
+}
+
+.projects .cards p {
+  color: #787878;
+  font-size: 1.1rem;
+}
+
+.cards__icon-center {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards a {
+  display: flex;
+  color: rgb(134, 134, 134);
+}
+
+.cards__icon:hover {
+  color: var(--accent-color);
+}
+
+.cards__icon-center-github:hover {
+  color: var(--accent-color);
+}
+
+.cards__icon-center-world:hover {
+  color: var(--accent-color);
+}
+
+.projects .cards span {
+  color: var(--accent-color);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1000px) {
+  .projects .container {
+    width: 100%;
+  }
+
+  .cards {
+    width: 100%;
+  }
+
+  .cards p {
+    margin: 0rem 0rem;
+  }
+
+  .projects .cards {
+    max-width: 100%;
+    margin: 1rem;
+  }
+}
