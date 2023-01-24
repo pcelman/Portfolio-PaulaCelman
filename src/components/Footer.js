@@ -62,11 +62,11 @@ const Footer = () => {
           <a href="mailto:pcelman@gmail.com" target="_blank">
             <HiOutlineMailOpen size={30} />
           </a>
-          <a href="https://www.linkedin.com/in/paula-celman/" target="_blank">
+          <a href="https://github.com/pcelman" target="_blank">
             {" "}
             <GoMarkGithub size={30} />
           </a>
-          <a href="https://github.com/pcelman" target="_blank">
+          <a href="https://www.linkedin.com/in/paula-celman/" target="_blank">
             <BsLinkedin size={30} />
           </a>
         </div>
