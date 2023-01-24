@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
-        <ul>
+        {/* <ul>
           <li className="footer__item">
             <Link
               to="home"
@@ -57,7 +57,7 @@ const Footer = () => {
               Testimonials
             </Link>
           </li>
-        </ul>
+        </ul> */}
         <div className="footer__links">
           <a href="mailto:pcelman@gmail.com" target="_blank">
             <HiOutlineMailOpen size={30} />
