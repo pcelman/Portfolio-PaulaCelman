@@ -3,7 +3,7 @@ import paula from "./images/about__pcv.png";
 import { FiFigma } from "react-icons/fi";
 import { FaCss3Alt, FaGitAlt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { DiScrum } from "react-icons/di";
+// import { DiScrum } from "react-icons/di";
 import { RiReactjsFill } from "react-icons/ri";
 import {
   SiTailwindcss,
@@ -23,7 +23,7 @@ const About = () => {
       <div className="container">
         <img
           src={paula}
-          alt="Picture of a smiling woman with a quote of Leonardo da Vinci on top that reads ´Simplicity is the ultimate sophistication´ "
+          alt="Smiling woman with a quote of Leonardo da Vinci on top that reads ´Simplicity is the ultimate sophistication´ "
         />
         <div className="col-2">
           <h2>About me</h2>
@@ -60,6 +60,7 @@ const About = () => {
               <a
                 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 <IoLogoJavascript size={35} className="skills__icon" />
               </a>
@@ -69,7 +70,7 @@ const About = () => {
               <div>
                 React & <br /> React Native
               </div>
-              <a href="https://reactjs.org/" target="_blank">
+              <a href="https://reactjs.org/" target="_blank" rel="noreferrer noopener">
                 <RiReactjsFill size={35} className="skills__icon" />
               </a>
             </li>
@@ -78,59 +79,60 @@ const About = () => {
               <a
                 href="https://www.figma.com/blog/figma-on-figma-how-we-built-figma-dot-coms-design-system/"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 <FiFigma size={35} className="skills__icon" />
               </a>
             </li>
             <li className="skills__item">
               <div>CSS</div>
-              <a href="https://www.w3schools.com/css/" target="_blank">
+              <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer noopener">
                 <FaCss3Alt size={35} className="skills__icon" />
               </a>
             </li>
             <li className="skills__item">
               <div>Tailwind</div>
-              <a href="https://tailwindui.com/documentation" target="_blank">
+              <a href="https://tailwindui.com/documentation" target="_blank" rel="noreferrer noopener">
                 <SiTailwindcss size={35} className="skills__icon" />
               </a>
             </li>
             <li className="skills__item">
               <div>Bootstrap</div>
-              <a href="https://getbootstrap.com/" target="_blank">
+              <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer noopener">
                 <SiBootstrap size={35} className="skills__icon" />
               </a>
             </li>
             <li className="skills__item">
               <div>MaterialUI</div>
-              <a href="https://mui.com/" target="_blank">
+              <a href="https://mui.com/" target="_blank" rel="noreferrer noopener">
                 <SiMaterialui size={35} className="skills__icon" />
               </a>
             </li>
             <li className="skills__item">
               <div>NodeJs</div>
-              <a href="https://nodejs.org/en/docs/" target="_blank">
+              <a href="https://nodejs.org/en/docs/" target="_blank" rel="noreferrer noopener">
                 <GrNode size={35} className="skills__icon" />
               </a>
             </li>
             <li className="skills__item">
               <div>Express</div>
-              <a href="https://expressjs.com/" target="_blank">
+              <a href="https://expressjs.com/" target="_blank" rel="noreferrer noopener">
                 <SiExpress size={35} className="skills__icon" />
               </a>
             </li>
             <li className="skills__item">
               <div>Sequelize</div>
-              <a href="https://sequelize.org/" target="_blank">
+              <a href="https://sequelize.org/" target="_blank" rel="noreferrer noopener">
                 <SiSequelize size={35} className="skills__icon" />
               </a>
             </li>
             <li className="skills__item">
               <div>Git</div>
-              <a href="https://git-scm.com/doc" target="_blank">
+              <a href="https://git-scm.com/doc" target="_blank" rel="noreferrer noopener">
                 <FaGitAlt size={35} className="skills__icon" />
               </a>
             </li>
-            <li className="skills__item">
+            {/* <li className="skills__item">
               <div>Scrum</div>
               <a
                 href="https://www.scrum.org/forum/scrum-forum/14437/agile-and-documentation"
@@ -138,7 +140,7 @@ const About = () => {
               >
                 <DiScrum size={35} className="skills__icon" />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
