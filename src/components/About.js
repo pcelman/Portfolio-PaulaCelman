@@ -8,13 +8,12 @@ import { RiReactjsFill } from "react-icons/ri";
 import {
   SiTailwindcss,
   SiBootstrap,
-  SiMaterialui,
+  SiMaterialui, 
   SiExpress,
   SiSequelize,
 } from "react-icons/si";
 import { GrNode } from "react-icons/gr";
 import cv from "./images/paulacelman.pdf";
-
 import "./About.css";
 
 const About = () => {
