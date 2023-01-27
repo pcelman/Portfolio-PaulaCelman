@@ -18,7 +18,7 @@ export default function Projects() {
         <span className="line"></span>
         <div className="content">
           <section className="cards">
-            <img 
+            <img
               src={projects__hc}
               alt="image of the design for Henry connect on figma"
               width="300px"
@@ -140,9 +140,9 @@ export default function Projects() {
             <div>
               <h1>Horoscope</h1>
               <p>
-                I am excited to announce that I will be working on a group
-                project called Horoscope, coming soon. More information will be
-                available as the project progresses.
+                I will be working on a project called Horoscope, coming soon.
+                More information will be available as the project progresses.
+                <br />
                 <br />
                 <br />
                 <br />
