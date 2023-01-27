@@ -38,7 +38,13 @@
   border-radius: 8px;
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
   flex-basis: 24rem;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+
+.cards img {
+  margin: auto;
 }
 
 .projects .cards p {
