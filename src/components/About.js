@@ -1,5 +1,5 @@
 import React from "react";
-import paula from "./images/about__pcv.png";
+import paula from "../images/about__pcv.png";
 import { FiFigma } from "react-icons/fi";
 import { FaCss3Alt, FaGitAlt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
@@ -13,7 +13,7 @@ import {
   SiSequelize,
 } from "react-icons/si";
 import { GrNode } from "react-icons/gr";
-import cv from "./images/paulacelman.pdf";
+import cv from "../assets/paulacelman.pdf";
 import "./About.css";
 
 const About = () => {

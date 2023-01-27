@@ -2,12 +2,12 @@ import React from "react";
 import { GoMarkGithub } from "react-icons/go";
 import { FiFigma } from "react-icons/fi";
 import { BiWorld } from "react-icons/bi";
-import projects__hc from "./images/projects__hc.png";
-import projects__arq from "./images/projects__arq.png";
-import projects__fm from "./images/projects__fm.png";
-import projects__vg from "./images/projects__vg.png";
-import projects__pk from "./images/projects__pk.jpeg";
-import projects__horoscope from "./images/projects__horoscope.jpg";
+import projects__hc from "../images/projects__hc.png";
+import projects__arq from "../images/projects__arq.png";
+import projects__fm from "../images/projects__fm.png";
+import projects__vg from "../images/projects__vg.png";
+import projects__pk from "../images/projects__pk.jpeg";
+import projects__horoscope from "../images/projects__horoscope.jpg";
 import "./Projects.css";
 
 export default function Projects() {

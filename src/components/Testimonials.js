@@ -1,8 +1,8 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
-import testimonials__jesus from "./images/testimonials__jesus.png";
-import testimonials__santy from "./images/testimonials__santy.png";
-import testimonials__mario from "./images/testimonials__mario.png";
+import testimonials__jesus from "../images/testimonials__jesus.png";
+import testimonials__santy from "../images/testimonials__santy.png";
+import testimonials__mario from "../images/testimonials__mario.png";
 import "./Testimonials.css";
 
 const Testimonials = () => {
