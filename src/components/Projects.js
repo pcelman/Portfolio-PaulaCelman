@@ -130,7 +130,7 @@ export default function Projects() {
               </a>
             </div>
           </section>{" "}
-          <section className="cards">
+          {/* <section className="cards">
             <img
               src={projects__horoscope}
               alt="arq"
@@ -157,7 +157,7 @@ export default function Projects() {
                 <GoMarkGithub size={30} className="cards__icon" />
               </a>
             </div>
-          </section>
+          </section> */}
         </div>
       </div>
     </div>
