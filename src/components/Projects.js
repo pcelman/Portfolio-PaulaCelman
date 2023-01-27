@@ -8,7 +8,7 @@ import projects__fm from "../images/projects__fm.png";
 import projects__vg from "../images/projects__vg.png";
 import projects__pk from "../images/projects__pk.jpeg";
 import projects__horoscope from "../images/projects__horoscope.jpg";
-import "./Projects.css";
+import "../styles/Projects.css";
 
 export default function Projects() {
   return (

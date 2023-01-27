@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import navbar__logo from "../images/navbar__logo.png";
 import { Link } from "react-scroll";
-import "./Navbar.css";
+import "../styles/Navbar.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);

@@ -14,7 +14,7 @@ import {
 } from "react-icons/si";
 import { GrNode } from "react-icons/gr";
 import cv from "../assets/paulacelman.pdf";
-import "./About.css";
+import "../styles/About.css";
 
 const About = () => {
   return (

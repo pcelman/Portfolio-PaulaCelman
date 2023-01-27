@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Demo.css";
+import "../styles/Demo.css";
 
 const Demo = () => {
   return (
