@@ -5,14 +5,14 @@ import "../styles/Demo.css";
 const Demo = () => {
   return (
     <div className="demo" id="demo">
-        <h2>Project demos</h2>
-        <span className="line"></span>
-        <br/>
-        <br/>
+      <h2>Project demos</h2>
+      <span className="line"></span>
+      <br />
+      <br />
       <div className="container">
         <div className="demo__text">
           <p>Group project presentation</p>
-          <p>Arquihub</p>
+          <h3>Arquihub</h3>
           <p>
             In this video, I provide an in-depth look at our Aquihub project,
             including its functionality and purpose. I demonstrate how users can
@@ -39,7 +39,7 @@ const Demo = () => {
       <div className="container">
         <div className="demo__text">
           <p>First video</p>
-          <p>Videogames | API request</p>
+          <h3>Videogames | API request</h3>
           <p>
             In the video, I go through the process of how I retrieved the
             information from the RAWG API, detailing the specific steps used to
@@ -62,7 +62,7 @@ const Demo = () => {
       <div className="container">
         <div className="demo__text">
           <p>Second video</p>
-          <p>Videogames | Render</p>
+          <h3>Videogames | Render</h3>
           <p>
             In the second video, I demonstrate how I utilized React and Redux to
             display the information obtained from the RAWG API. I highlight the

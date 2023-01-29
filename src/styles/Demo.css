@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 940px) {
   .demo .container {
-    max-width: 100%;
+    max-width: 90%;
     grid-template-columns: 1fr;
     grid-gap: 30px;
   }
@@ -63,5 +63,35 @@
   .demo iframe {
     width: 100%;
     height: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .demo .container {
+    max-width: 90%;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  .demo .container p {
+    margin-left: 0rem;
+  }
+
+  .demo iframe {
+    width: 100%;
+    height: auto;
+  }
+  .demo .container .demo__text h3 {
+    font-size: 1.4rem;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+  }
+  .demo .container .demo__text p {
+  
+
+font-size: 1rem;
+  }
+  .demo__video {
+    margin-top: -1rem;
+    padding-top: -1rem;
   }
 }

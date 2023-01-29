@@ -99,3 +99,14 @@
     margin: 1rem;
   }
 }
+@media screen and (max-width: 480px) {
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.cards img {
+  margin-left: -13.5px;
+}
+
+}

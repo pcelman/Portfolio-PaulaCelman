@@ -91,13 +91,10 @@
   .about .container {
     width: 100%;
   }
+
   .about__img {
     display: none;
   }
-  .about__img-sm {
-    display: none;
-  }
-
 
   .about__img-md {
     display: block;
@@ -105,6 +102,10 @@
     padding: 0rem;
     width: 70vw;
     justify-self: center;
+  }
+
+  .about__img-sm {
+    display: none;
   }
 
   p {
