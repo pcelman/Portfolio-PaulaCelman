@@ -31,7 +31,7 @@ const Testimonials = () => {
                 target="_blank"
               >
                 &nbsp; &nbsp;
-                <BsLinkedin className="card__linkedin" />
+                <BsLinkedin className="card__linkedin" alt="Link to Jesús´ LinkedIn profile"/>
               </a>
             </p>
             <p>Web developer</p>
@@ -53,7 +53,7 @@ const Testimonials = () => {
                 target="_blank"
               >
                 &nbsp; &nbsp;
-                <BsLinkedin className="card__linkedin" />
+                <BsLinkedin className="card__linkedin" alt="Link to Santiago´s LinkedIn profile"/>
               </a>
             </p>
             <p>Web developer</p>
@@ -78,7 +78,7 @@ const Testimonials = () => {
                 target="_blank"
               >
                 &nbsp; &nbsp;
-                <BsLinkedin className="card__linkedin" />
+                <BsLinkedin className="card__linkedin" alt="Link to Mario´s LinkedIn profile"/>
               </a>
             </p>
             <p>Web developer</p>

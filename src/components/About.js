@@ -61,7 +61,7 @@ const About = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <IoLogoJavascript size={35} className="skills__icon" />
+                <IoLogoJavascript size={35} className="skills__icon" alt="Link to Javascript"/>
               </a>
             </li>
 
@@ -70,7 +70,7 @@ const About = () => {
                 React & <br /> React Native
               </div>
               <a href="https://reactjs.org/" target="_blank" rel="noreferrer noopener">
-                <RiReactjsFill size={35} className="skills__icon" />
+                <RiReactjsFill size={35} className="skills__icon" alt="Link to React icon"/>
               </a>
             </li>
             <li className="skills__item">
@@ -80,55 +80,55 @@ const About = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <FiFigma size={35} className="skills__icon" />
+                <FiFigma size={35} className="skills__icon" alt="Link to Figma"/>
               </a>
             </li>
             <li className="skills__item">
               <div>CSS</div>
               <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer noopener">
-                <FaCss3Alt size={35} className="skills__icon" />
+                <FaCss3Alt size={35} className="skills__icon" alt="Link to CSS"/>
               </a>
             </li>
             <li className="skills__item">
               <div>Tailwind</div>
               <a href="https://tailwindui.com/documentation" target="_blank" rel="noreferrer noopener">
-                <SiTailwindcss size={35} className="skills__icon" />
+                <SiTailwindcss size={35} className="skills__icon" alt="Link to Tailwind"/>
               </a>
             </li>
             <li className="skills__item">
               <div>Bootstrap</div>
               <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer noopener">
-                <SiBootstrap size={35} className="skills__icon" />
+                <SiBootstrap size={35} className="skills__icon" alt="Link to Bootstrap"/>
               </a>
             </li>
             <li className="skills__item">
               <div>MaterialUI</div>
               <a href="https://mui.com/" target="_blank" rel="noreferrer noopener">
-                <SiMaterialui size={35} className="skills__icon" />
+                <SiMaterialui size={35} className="skills__icon" alt="Link to MaterialUI"/>
               </a>
             </li>
             <li className="skills__item">
               <div>NodeJs</div>
               <a href="https://nodejs.org/en/docs/" target="_blank" rel="noreferrer noopener">
-                <GrNode size={35} className="skills__icon" />
+                <GrNode size={35} className="skills__icon" alt="Link to Node"/>
               </a>
             </li>
             <li className="skills__item">
               <div>Express</div>
               <a href="https://expressjs.com/" target="_blank" rel="noreferrer noopener">
-                <SiExpress size={35} className="skills__icon" />
+                <SiExpress size={35} className="skills__icon" alt="Link to Express"/>
               </a>
             </li>
             <li className="skills__item">
               <div>Sequelize</div>
               <a href="https://sequelize.org/" target="_blank" rel="noreferrer noopener">
-                <SiSequelize size={35} className="skills__icon" />
+                <SiSequelize size={35} className="skills__icon" alt="Link to Sequelize"/>
               </a>
             </li>
             <li className="skills__item">
               <div>Git</div>
               <a href="https://git-scm.com/doc" target="_blank" rel="noreferrer noopener">
-                <FaGitAlt size={35} className="skills__icon" />
+                <FaGitAlt size={35} className="skills__icon" alt="Link to Git"/>
               </a>
             </li>
             {/* <li className="skills__item">
@@ -137,7 +137,7 @@ const About = () => {
                 href="https://www.scrum.org/forum/scrum-forum/14437/agile-and-documentation"
                 target="_blank"
               >
-                <DiScrum size={35} className="skills__icon" />
+                <DiScrum size={35} className="skills__icon" alt="Link to Scrum" />
               </a>
             </li> */}
           </ul>

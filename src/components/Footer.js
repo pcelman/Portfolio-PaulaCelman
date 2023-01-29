@@ -60,14 +60,14 @@ const Footer = () => {
         </ul> */}
         <div className="footer__links">
           <a href="mailto:pcelman@gmail.com" target="_blank">
-            <HiOutlineMailOpen size={30} />
+            <HiOutlineMailOpen size={30} alt="Link to email"/>
           </a>
           <a href="https://github.com/pcelman" target="_blank">
             {" "}
-            <GoMarkGithub size={30} />
+            <GoMarkGithub size={30} alt="Link to GitHub profile"/>
           </a>
           <a href="https://www.linkedin.com/in/paula-celman/" target="_blank">
-            <BsLinkedin size={30} />
+            <BsLinkedin size={30} alt="Link to LinkedIn profile"/>
           </a>
         </div>
         <div className="footer__bottom">

@@ -38,12 +38,12 @@ export default function Projects() {
                 target="_blank"
                 className="cards__icon-center"
               >
-                <FiFigma size={30} className="cards__icon" />
+                <FiFigma size={30} className="cards__icon" alt="Link to Figma"/>
               </a>
             </div>
           </section>
           <section className="cards">
-            <img src={projects__arq} alt="arq" width="300px" height="250px" />
+            <img src={projects__arq} alt="Arquihub" width="300px" height="250px" />
             <div>
               <h1>ARQUIHUB</h1>
               <p>
@@ -59,16 +59,17 @@ export default function Projects() {
                   <GoMarkGithub
                     size={30}
                     className="cards__icon-center-github"
+                    alt="Link to Github"
                   />
                 </a>
                 <a href="https://arquihub.vercel.app/" target="_blank">
-                  <BiWorld size={30} className="cards__icon-center-world" />
+                  <BiWorld size={30} className="cards__icon-center-world" alt="Link to the deploy of Arquihub"/>
                 </a>
               </div>
             </div>
           </section>
           <section className="cards">
-            <img src={projects__fm} alt="arq" width="300px" height="250px" />
+            <img src={projects__fm} alt="Fundacion Mujer project" width="300px" height="250px" />
             <div>
               <h1>Fundacion Mujer</h1>
               <p>
@@ -83,12 +84,12 @@ export default function Projects() {
                 target="_blank"
                 className="cards__icon-center"
               >
-                <FiFigma size={30} className="cards__icon" />
+                <FiFigma size={30} className="cards__icon" alt="Link to Figma"/>
               </a>
             </div>
           </section>
           <section className="cards">
-            <img src={projects__vg} alt="arq" width="300px" height="250px" />
+            <img src={projects__vg} alt="Videogames project" width="300px" height="250px" />
             <div>
               <h1>Videogames</h1>
               <p>
@@ -105,12 +106,12 @@ export default function Projects() {
                 target="_blank"
                 className="cards__icon-center"
               >
-                <GoMarkGithub size={30} className="cards__icon" />
+                <GoMarkGithub size={30} className="cards__icon" alt="Link to Github"/>
               </a>
             </div>
           </section>
           <section className="cards">
-            <img src={projects__pk} alt="arq" width="300px" height="250px" />
+            <img src={projects__pk} alt="Pokemon project" width="300px" height="250px" />
             <div>
               <h1>Pokemon</h1>
               <p>
@@ -126,14 +127,14 @@ export default function Projects() {
                 target="_blank"
                 className="cards__icon-center"
               >
-                <GoMarkGithub size={30} className="cards__icon" />
+                <GoMarkGithub size={30} className="cards__icon" alt="Link to Github"/>
               </a>
             </div>
           </section>{" "}
           {/* <section className="cards">
             <img
               src={projects__horoscope}
-              alt="arq"
+              alt="Horosope, one of my next project"
               width="300px"
               height="250px"
             />
@@ -154,7 +155,7 @@ export default function Projects() {
                 // href="" target="_blank"
                 className="cards__icon-center"
               >
-                <GoMarkGithub size={30} className="cards__icon" />
+                <GoMarkGithub size={30} className="cards__icon" alt="Link to Github"/>
               </a>
             </div>
           </section> */}
