@@ -7,7 +7,11 @@ import projects__arq from "../images/projects__arq.png";
 import projects__fm from "../images/projects__fm.png";
 import projects__vg from "../images/projects__vg.png";
 import projects__pk from "../images/projects__pk.jpeg";
-import projects__horoscope from "../images/projects__horoscope.jpg";
+import projects__hcxs from "../images/projects__hc300.png";
+import projects__arq3xs from "../images/projects__arq300.png";
+import projects__fmxs from "../images/projects__fm300.png";
+import projects__vgxs from "../images/projects__vg300.png";
+import projects__pkxs from "../images/projects__pk300.jpeg";
 import "../styles/Projects.css";
 
 export default function Projects() {
@@ -40,7 +44,7 @@ export default function Projects() {
               >
                 <FiFigma size={30} className="cards__icon" alt="Link to Figma"/>
               </a>
-            </div>
+            </div>27
           </section>
           <section className="cards">
             <img src={projects__arq} alt="Arquihub" width="300px" height="250px" />

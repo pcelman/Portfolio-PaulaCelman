@@ -105,8 +105,13 @@
     align-items: center;
     justify-content: center;
   }
-.cards img {
-  margin-left: -13.5px;
+  .cards img {
+    margin-left: -13.5px;
+  }
 }
-
+@media screen and (max-width: 330px) {
+  .cards img {
+    margin: auto;
+    width: 275px;
+  }
 }

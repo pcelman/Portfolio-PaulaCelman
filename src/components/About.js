@@ -113,7 +113,7 @@ const About = () => {
             </li>
             <li className="skills__item">
               <div>MaterialUI</div>
-              <a href="https://mui.com/" target="_blank" rel="noreferrer noopener">
+              <a href="https://mytodolist-six.vercel.app/" target="_blank" rel="noreferrer noopener">
                 <SiMaterialui size={35} className="skills__icon" alt="Link to MaterialUI"/>
               </a>
             </li>
