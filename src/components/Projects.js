@@ -44,7 +44,7 @@ export default function Projects() {
               >
                 <FiFigma size={30} className="cards__icon" alt="Link to Figma"/>
               </a>
-            </div>27
+            </div>
           </section>
           <section className="cards">
             <img src={projects__arq} alt="Arquihub" width="300px" height="250px" />
