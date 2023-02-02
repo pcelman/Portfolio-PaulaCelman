@@ -107,7 +107,7 @@ const About = () => {
             </li>
             <li className="skills__item">
               <div>Bootstrap</div>
-              <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer noopener">
+              <a href="https://alaskan-odyssey.vercel.app/" target="_blank" rel="noreferrer noopener">
                 <SiBootstrap size={35} className="skills__icon" alt="Link to Bootstrap"/>
               </a>
             </li>
