@@ -29,10 +29,6 @@ const About = () => {
           src={paulamd}
           alt="Smiling woman with a quote of Leonardo da Vinci on top that reads ´Simplicity is the ultimate sophistication´ "
         width="574px"/>
-             {/* <img className="about__img-sm"
-          src={paulasm}
-          alt="Smiling woman with a quote of Leonardo da Vinci on top that reads ´Simplicity is the ultimate sophistication´ "
-        width="300px"/> */}
         <div className="col-2">
           <h2>About me</h2>
           <span className="line"></span>
