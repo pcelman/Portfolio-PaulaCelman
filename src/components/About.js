@@ -1,7 +1,6 @@
 import React from "react";
 import paula from "../images/about__pcv.png";
 import paulamd from "../images/about__pcv-574.png";
-import paulasm from "../images/about__pcv-300.png";
 import { FiFigma } from "react-icons/fi";
 import { FaCss3Alt, FaGitAlt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
@@ -30,10 +29,10 @@ const About = () => {
           src={paulamd}
           alt="Smiling woman with a quote of Leonardo da Vinci on top that reads ´Simplicity is the ultimate sophistication´ "
         width="574px"/>
-             <img className="about__img-sm"
+             {/* <img className="about__img-sm"
           src={paulasm}
           alt="Smiling woman with a quote of Leonardo da Vinci on top that reads ´Simplicity is the ultimate sophistication´ "
-        width="300px"/>
+        width="300px"/> */}
         <div className="col-2">
           <h2>About me</h2>
           <span className="line"></span>
