@@ -12,13 +12,21 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+/* .about__image {
+  background-image: url("../images/about__pcv.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:  center center;
+  width: 100%;
+} */
+
 .about__img-sm {
   display: none;
 }
 
 .about__img-md {
   display: none;
-}
+} 
 
 .about h2 {
   font-size: 3rem;
@@ -101,11 +109,11 @@
   .about .container {
     width: 100%;
   }
-
+ 
   .about__img {
     display: none;
   }
-
+  
   .about__img-md {
     display: block;
     margin-top: 5rem;
@@ -116,7 +124,15 @@
 
   .about__img-sm {
     display: none;
-  }
+  } 
+
+  /* .about__image {
+    background-image: url("../images/about__pcv-574.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:  center center;
+    width: 100%;
+  } */
 
   p {
     margin: 3rem;
@@ -134,5 +150,15 @@
 
   .about button {
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about__image {
+    background-image: url("../images/about__pcv-300.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:  center center;
+    width: 100%;
   }
 }

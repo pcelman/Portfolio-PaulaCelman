@@ -9,7 +9,7 @@ import { RiReactjsFill } from "react-icons/ri";
 import {
   SiTailwindcss,
   SiBootstrap,
-  SiMaterialui, 
+  SiMaterialui,
   SiExpress,
   SiSequelize,
 } from "react-icons/si";
@@ -21,14 +21,20 @@ const About = () => {
   return (
     <div className="about" id="home">
       <div className="container">
-        <img className="about__img"
+        {/* <div className="about__image"></div> */}
+         <img
+          className="about__img"
           src={paula}
           alt="Smiling woman with a quote of Leonardo da Vinci on top that reads ´Simplicity is the ultimate sophistication´ "
-        width="748px"/>
-        <img className="about__img-md"
+          width="748px"
+        />
+        <img
+          className="about__img-md"
           src={paulamd}
           alt="Smiling woman with a quote of Leonardo da Vinci on top that reads ´Simplicity is the ultimate sophistication´ "
-        width="574px"/>
+          width="574px"
+        /> 
+
         <div className="col-2">
           <h2>About me</h2>
           <span className="line"></span>
@@ -66,7 +72,11 @@ const About = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <IoLogoJavascript size={35} className="skills__icon" alt="Link to Javascript"/>
+                <IoLogoJavascript
+                  size={35}
+                  className="skills__icon"
+                  alt="Link to Javascript"
+                />
               </a>
             </li>
 
@@ -74,8 +84,16 @@ const About = () => {
               <div>
                 React & <br /> React Native
               </div>
-              <a href="https://reactjs.org/" target="_blank" rel="noreferrer noopener">
-                <RiReactjsFill size={35} className="skills__icon" alt="Link to React icon"/>
+              <a
+                href="https://reactjs.org/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <RiReactjsFill
+                  size={35}
+                  className="skills__icon"
+                  alt="Link to React icon"
+                />
               </a>
             </li>
             <li className="skills__item">
@@ -85,55 +103,119 @@ const About = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <FiFigma size={35} className="skills__icon" alt="Link to Figma"/>
+                <FiFigma
+                  size={35}
+                  className="skills__icon"
+                  alt="Link to Figma"
+                />
               </a>
             </li>
             <li className="skills__item">
               <div>CSS</div>
-              <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer noopener">
-                <FaCss3Alt size={35} className="skills__icon" alt="Link to CSS"/>
+              <a
+                href="https://www.w3schools.com/css/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <FaCss3Alt
+                  size={35}
+                  className="skills__icon"
+                  alt="Link to CSS"
+                />
               </a>
             </li>
             <li className="skills__item">
               <div>Tailwind</div>
-              <a href="https://tailwindui.com/documentation" target="_blank" rel="noreferrer noopener">
-                <SiTailwindcss size={35} className="skills__icon" alt="Link to Tailwind"/>
+              <a
+                href="https://tailwindui.com/documentation"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <SiTailwindcss
+                  size={35}
+                  className="skills__icon"
+                  alt="Link to Tailwind"
+                />
               </a>
             </li>
             <li className="skills__item">
               <div>Bootstrap</div>
-              <a href="https://alaskan-odyssey.vercel.app/" target="_blank" rel="noreferrer noopener">
-                <SiBootstrap size={35} className="skills__icon" alt="Link to Bootstrap"/>
+              <a
+                href="https://alaskan-odyssey.vercel.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <SiBootstrap
+                  size={35}
+                  className="skills__icon"
+                  alt="Link to Bootstrap"
+                />
               </a>
             </li>
             <li className="skills__item">
               <div>MaterialUI</div>
-              <a href="https://mytodolist-six.vercel.app/" target="_blank" rel="noreferrer noopener">
-                <SiMaterialui size={35} className="skills__icon" alt="Link to MaterialUI"/>
+              <a
+                href="https://mytodolist-six.vercel.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <SiMaterialui
+                  size={35}
+                  className="skills__icon"
+                  alt="Link to MaterialUI"
+                />
               </a>
             </li>
             <li className="skills__item">
               <div>NodeJs</div>
-              <a href="https://nodejs.org/en/docs/" target="_blank" rel="noreferrer noopener">
-                <GrNode size={35} className="skills__icon" alt="Link to Node"/>
+              <a
+                href="https://nodejs.org/en/docs/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <GrNode size={35} className="skills__icon" alt="Link to Node" />
               </a>
             </li>
             <li className="skills__item">
               <div>Express</div>
-              <a href="https://expressjs.com/" target="_blank" rel="noreferrer noopener">
-                <SiExpress size={35} className="skills__icon" alt="Link to Express"/>
+              <a
+                href="https://expressjs.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <SiExpress
+                  size={35}
+                  className="skills__icon"
+                  alt="Link to Express"
+                />
               </a>
             </li>
             <li className="skills__item">
               <div>Sequelize</div>
-              <a href="https://sequelize.org/" target="_blank" rel="noreferrer noopener">
-                <SiSequelize size={35} className="skills__icon" alt="Link to Sequelize"/>
+              <a
+                href="https://sequelize.org/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <SiSequelize
+                  size={35}
+                  className="skills__icon"
+                  alt="Link to Sequelize"
+                />
               </a>
             </li>
             <li className="skills__item">
               <div>Git</div>
-              <a href="https://git-scm.com/doc" target="_blank" rel="noreferrer noopener">
-                <FaGitAlt size={35} className="skills__icon" alt="Link to Git"/>
+              <a
+                href="https://git-scm.com/doc"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <FaGitAlt
+                  size={35}
+                  className="skills__icon"
+                  alt="Link to Git"
+                />
               </a>
             </li>
             {/* <li className="skills__item">
