@@ -56,6 +56,12 @@
   font-weight: 600;
 }
 
+.about__bold::after {
+font-family: "Font Awesome 5 Free";
+content: " \f35d";
+font-weight: 900;
+font-size: .7em;
+}
 .about .col-2 p:first-of-type {
   margin: 2rem 0;
 }
