@@ -24,17 +24,22 @@ const Testimonials = () => {
               looking to learn new things. Paula excels at building connections
               and working effectively in teams.
             </p>
-            <p className="card__name">
-              <span>Jesus Espinel</span>
-              <a
-                href="https://www.linkedin.com/in/jesus-espinel/"
-                target="_blank"
-              >
-                &nbsp; &nbsp;
-                <BsLinkedin className="card__linkedin" alt="Link to Jesús´ LinkedIn profile"/>
-              </a>
-            </p>
-            <p>Web developer</p>
+            <div>
+              <p className="card__name">
+                <span>Jesus Espinel</span>
+                <a
+                  href="https://www.linkedin.com/in/jesus-espinel/"
+                  target="_blank"
+                >
+                  &nbsp; &nbsp;
+                  <BsLinkedin
+                    className="card__linkedin"
+                    alt="Link to Jesús´ LinkedIn profile"
+                  />
+                </a>
+              </p>
+              <p>Web developer</p>
+            </div>
           </div>
           <div className="card">
             <img
@@ -42,21 +47,29 @@ const Testimonials = () => {
               alt="A man looking to the side with a blue gradiend background"
             />
             <p>
-              I greatly admire Paula for her determination and
-              aptitude for learning.  It was a joy to collaborate with her for an
-              extended period, as she is an asset to any team. Her expertise in design and user experience is remarkable, and I can confidently say that I have learned a great deal from her throughout our time working together.
+              I greatly admire Paula for her determination and aptitude for
+              learning. It was a joy to collaborate with her for an extended
+              period, as she is an asset to any team. Her expertise in design
+              and user experience is remarkable, and I can confidently say that
+              I have learned a great deal from her throughout our time working
+              together.
             </p>
-            <p>
-              <span>Santiago Vega</span>
-              <a
-                href="https://www.linkedin.com/in/santiago-vega-53970b217/"
-                target="_blank"
-              >
-                &nbsp; &nbsp;
-                <BsLinkedin className="card__linkedin" alt="Link to Santiago´s LinkedIn profile"/>
-              </a>
-            </p>
-            <p>Web developer</p>
+            <div>
+              <p className="card__name">
+                <span>Santiago Vega</span>
+                <a
+                  href="https://www.linkedin.com/in/santiago-vega-53970b217/"
+                  target="_blank"
+                >
+                  &nbsp; &nbsp;
+                  <BsLinkedin
+                    className="card__linkedin"
+                    alt="Link to Santiago´s LinkedIn profile"
+                  />
+                </a>
+              </p>
+              <p>Web developer</p>
+            </div>
           </div>
           <div className="card">
             <img
@@ -71,17 +84,22 @@ const Testimonials = () => {
               significant impact on every project she has been a part of. She is
               highly responsible and consistently delivers high-quality results.
             </p>
-            <p>
-              <span>Mario Villalba</span>
-              <a
-                href="https://www.linkedin.com/in/mario-villalba-8b7136179/"
-                target="_blank"
-              >
-                &nbsp; &nbsp;
-                <BsLinkedin className="card__linkedin" alt="Link to Mario´s LinkedIn profile"/>
-              </a>
-            </p>
-            <p>Web developer</p>
+            <div>
+              <p className="card__name">
+                <span>Mario Villalba</span>
+                <a
+                  href="https://www.linkedin.com/in/mario-villalba-8b7136179/"
+                  target="_blank"
+                >
+                  &nbsp; &nbsp;
+                  <BsLinkedin
+                    className="card__linkedin"
+                    alt="Link to Mario´s LinkedIn profile"
+                  />
+                </a>
+              </p>
+              <p>Web developer</p>
+            </div>
           </div>
         </div>
       </div>

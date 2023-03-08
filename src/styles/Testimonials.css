@@ -28,6 +28,13 @@
   border: 1px solid #eee;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card__name {
+  display: flex;
+  align-content: end;
 }
 
 .testimonials img {
@@ -41,6 +48,7 @@
   margin: 12px;
   color: #787878;
   font-size: 1.1rem;
+
 }
 
 .testimonials .card span {
