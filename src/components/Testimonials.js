@@ -13,10 +13,12 @@ const Testimonials = () => {
         <span className="line"></span>
         <div className="content">
           <div className="card">
+            <div>
+
             <img
               src={testimonials__jesus}
               alt="A man with a beard with a blue gradiend background"
-            />
+              />
             <p>
               Paula is a person characterized by her empathy, which allows her
               to connect with other people and work in a team remarkably. She is
@@ -24,6 +26,7 @@ const Testimonials = () => {
               looking to learn new things. Paula excels at building connections
               and working effectively in teams.
             </p>
+              </div>
             <div>
               <p className="card__name">
                 <span>Jesus Espinel</span>
@@ -42,6 +45,7 @@ const Testimonials = () => {
             </div>
           </div>
           <div className="card">
+            <div>
             <img
               src={testimonials__santy}
               alt="A man looking to the side with a blue gradiend background"
@@ -54,6 +58,8 @@ const Testimonials = () => {
               I have learned a great deal from her throughout our time working
               together.
             </p>
+
+                </div>
             <div>
               <p className="card__name">
                 <span>Santiago Vega</span>
@@ -72,10 +78,12 @@ const Testimonials = () => {
             </div>
           </div>
           <div className="card">
+            <div>
+
             <img
               src={testimonials__mario}
               alt="A man smiling with a blue gradiend background"
-            />
+              />
             <p>
               Paula is an exceptional colleague, known for her communication
               skills and initiative in helping others and proposing new ideas.
@@ -84,6 +92,7 @@ const Testimonials = () => {
               significant impact on every project she has been a part of. She is
               highly responsible and consistently delivers high-quality results.
             </p>
+              </div>
             <div>
               <p className="card__name">
                 <span>Mario Villalba</span>
